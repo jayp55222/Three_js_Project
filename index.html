@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main w-full">
+      <nav class="w-full fixed top-0 left-0 px-10 py-3 flex justify-between items-center">
+        <img class="w-[200px] mix-blend-screen contrast-150 saturate-150" src="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" alt="" >
+        <div class="flex gap-5 items-center">
+          <a href="#games" class="tracking-tight text-white hover:text-cyan-400 hover:text-shadow-cyan transition-all text-lg">Games</a>
+          <a href="#store" class="tracking-tight text-white hover:text-cyan-400 hover:text-shadow-cyan transition-all text-lg">Store</a>
+          <a href="#community" class="tracking-tight text-white hover:text-cyan-400 hover:text-shadow-cyan transition-all text-lg">Community</a>
+          <a href="#support" class="tracking-tight text-white hover:text-cyan-400 hover:text-shadow-cyan transition-all text-lg">Support</a>
+          <a href="#news" class="tracking-tight text-white hover:text-cyan-400 hover:text-shadow-cyan transition-all text-lg">News</a>
+        </div>
+      </nav>
+      <div class="w-full h-[150vh] overflow-hidden">
+        <img class="absolute w-1/2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-screen contrast-150 saturate-150" src="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" alt="" >
+        <div class="w-[24rem] h-[24rem] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[-1] rounded-full bg-blue-600 blur-[90px]"></div>
+        <canvas id="canvas"></canvas>
+      </div>
+      <div class="w-full h-screen relative bg-[#000]">
+        
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
